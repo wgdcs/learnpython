@@ -1,0 +1,6 @@
+my_float_value = float (input ("введите дробное число: "))
+print ("вы ввели ", my_float_value)
+my_int_value = int (my_float_value)
+my_str_value = str (my_float_value)
+print ("преобразование к типу int: ", my_int_value)
+print ("преобразование к типу str: ", my_str_value)
