@@ -32,3 +32,11 @@ print(x)
 txt = "текст на русском языке"
 x = txt.encode()
 print(x)
+
+# endswith()
+txt = "Continue learning Python."
+x = txt.endswith("n.")
+print (x)
+x = txt.endswith("n")
+print (x)
+
